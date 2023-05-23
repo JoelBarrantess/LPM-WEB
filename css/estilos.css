@@ -52,14 +52,27 @@ h4{
 }
 h3{
     font-size: 1.7rem;
-    margin-left: 3%;
+    margin-left: 5%;
+}
+p{
+    text-align: justify;
 }
 .quien{
-    margin-left: 3%;
+    margin-left: 5%;
     font-size: 1.4rem;
 }
 .logo{
     margin-top: 10px;
+}
+.bandera{
+    width: 8%;
+    margin-left: 5%;
+}
+.mapa{
+    width: 85%;
+    height: 85%;
+    margin-top: 10.6%;
+    margin-left: 7.5%;
 }
 header {
     background-color: rgb(215, 89, 89);
@@ -81,7 +94,7 @@ footer{
 }
 .carousel .slider {
     display: flex;
-    transition: transform 1s ease;
+    transition: transform 2s ease;
 }
 .carousel .slider img {
     flex: 0 0 33.33%;
@@ -105,4 +118,29 @@ footer{
 }
 .carousel .slide-nav button.active {
     background: rgb(255, 255, 255);
+}
+.fot{
+    color: black;
+    font-size: 1.4rem;
+    padding-top: 20px;
+}
+.fot:hover {
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+  }
+.marge{
+    margin-left: 2.80%;
+    font-size: 1.4rem;
+}
+.column-50{
+    width: 50%;
+}
+.column-50-1{
+    width: 50%;
+    margin-top: 14px;
+}
+.column-100{
+    width: 100%;
 }
