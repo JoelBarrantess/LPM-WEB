@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+        <script defer src="js/carrusel.js"></script>
+        <link rel="icon" href="../img/logo.png">
+        <title>Contacta</title>
+    </head>
+    <header>
+        <div class="row">
+            <div class="emot1">
+                <a href="../index.html"><img src="../img/logo.png" alt="logo" width="70%" class="logo"></a>
+            </div>
+            <div class="navegacion1">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Quienes Somos?</li></a>
+                        <li><a href="pag/objetivos.html">Objetivos</li></a>
+                        <li><a href="pag/talleres.html">Talleres</li></a>
+                        <li><a href="pag/colabora.html">Colabora</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form action="enviar_formulario.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefono">Telefono de contacto</label>
+    <input type="tel" id="tel" name="tel" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

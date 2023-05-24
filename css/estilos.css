@@ -46,6 +46,11 @@ nav a:hover {
     font-size: 2rem;
     margin-top: 30px;
 }
+h5{
+    font-size: 2.5rem;
+    color:#d75959;
+    margin-left: 5%;
+}
 h4{
     text-align: center;
     font-size: 2.5rem;
@@ -64,6 +69,19 @@ p{
 .logo{
     margin-top: 10px;
 }
+.obj{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}.fotobj{
+    width: 100%;
+    margin-top: 6%;
+}
+hr{
+    color: #d75959;
+    border: #d75959;
+    border-radius: 1px;
+}
 .bandera{
     width: 8%;
     margin-left: 5%;
@@ -75,7 +93,7 @@ p{
     margin-left: 7.5%;
 }
 header {
-    background-color: rgb(215, 89, 89);
+    background-color: #d75959;
     color: #000000;
 }
 footer{
@@ -133,6 +151,9 @@ a {
 .marge{
     margin-left: 2.80%;
     font-size: 1.4rem;
+}
+.column-33{
+    width: 33.33%;
 }
 .column-50{
     width: 50%;
