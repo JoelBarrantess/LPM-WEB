@@ -16,7 +16,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 nav {
     width: 100%;
     display: flex;
@@ -27,12 +26,10 @@ nav {
     color: #000000;
     font-size: 1.4rem;
 }
-
 .cont-ul {
     display: flex;
     align-items: center;
 }
-
 li {
     list-style: none;
     cursor: pointer;
@@ -40,16 +37,13 @@ li {
     transition:  all .3s ease 0s;
     font-size: 1.4rem;
 }
-
 li:hover {
     background-color: #910404;
     color: white;
 }
-
 .develop {
     position: relative;
 }
-
 .ul-second {
     display: none;
     position: absolute;
@@ -73,8 +67,6 @@ li:hover {
 .develop:hover > .ul-second {
     display: block;
 }
-
-
 nav a {
     color: black;
     text-decoration: none;
@@ -276,3 +268,91 @@ a {
 .column-100{
     width: 100%;
 }
+@media screen and (max-width: 800px){
+    .column-33{
+        width: 100%;
+    }
+    .column-33-1{
+        width: 100%;
+        text-align: center;
+    }
+    .column-50{
+        width: 100%;
+    }
+    .column-50-1{
+        width: 100%;
+    }
+    .mapa{
+        width: 85%;
+        height: 90%;
+        margin-top: 0%;
+        margin-left: 7.5%;
+    }
+    .fot{
+        margin-left: 3%;
+        font-size: 1rem;
+    }
+    .bandera{
+        width: 8%;
+        margin-left: 3%;
+    }
+    .quien{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1rem;
+    }
+    h5{
+        font-size: 1.9rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 1rem;
+    }
+    .marge{
+        font-size: 1rem;
+    }
+    .fotobj{
+        width: 100%;
+        text-align: center;
+    }
+    .obj1{
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0%;
+    }
+    .obj2{
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0%;
+    }
+    .talleres{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .obj3{
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0%;
+    }
+    h6{
+        font-size: 1.4rem;
+        margin-left: 5%;
+    }
+    .icono{
+        font-size: 1rem;
+    }
+    }
