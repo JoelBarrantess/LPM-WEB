@@ -16,25 +16,82 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d75959;
+    padding-left: 2vw;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
     list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition:  all .3s ease 0s;
+    font-size: 1.4rem;
 }
-nav li {
-    display: inline-block;
-    margin-right: 20px;
+
+li:hover {
+    background-color: #910404;
+    color: white;
 }
+
+.develop {
+    position: relative;
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-second > li {
+    width: 190px;
+    transform: translateX(-20px);
+    border-bottom:solid 1px #ffffff ;
+    text-align: center;
+    background-color: #910404;
+    color: rgb(255, 255, 255);
+}
+
+.ul-second > li:hover {
+    background-color: #d75959;
+    color: rgb(255, 255, 255);
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+
+
 nav a {
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 nav a:hover {
     color: #ffffff;
 }
+
+
 .navegacion{
     margin-left: auto;
+}
+.preguntas{
+    font-size: 1.4rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .emot1{
     text-align: left;
@@ -45,6 +102,11 @@ nav a:hover {
     margin-left: auto;
     font-size: 2rem;
     margin-top: 30px;
+}
+h6{
+    font-size: 2rem;
+    color:#000000;
+    margin-left: 5%;
 }
 h5{
     font-size: 2.5rem;
@@ -57,6 +119,11 @@ h4{
 }
 h3{
     font-size: 1.7rem;
+    margin-left: 5%;
+}
+h2{
+    font-size: 2rem;
+    color:#d75959;
     margin-left: 5%;
 }
 p{
@@ -73,15 +140,35 @@ p{
     font-size: 1.5rem;
     margin-left: 5%;
     margin-right: 5%;
-}.fotobj{
-    width: 100%;
-    margin-top: 6%;
+}
+.obj1{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 13%;
+}
+.obj2{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.obj3{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+.fotobj{
+    width: 90%;
+    text-align: center;
 }
 hr{
     border-top: 2px solid rgb(215, 89, 89);
 }
 .bandera{
     width: 8%;
+    text-align: right;
     margin-left: 5%;
 }
 .mapa{
@@ -156,6 +243,17 @@ a {
 .taller{
     width: 100%;
     margin-top: 32.6%;
+}
+.talleres{
+    width: 70%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+.talleres1{
+    width: 70%;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 .icono{
     text-align: center;

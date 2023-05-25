@@ -13,38 +13,33 @@
         <title>Contacta</title>
     </head>
     <header>
-        <div class="row">
-            <div class="emot1">
-                <a href="../index.html"><img src="../img/logo.png" alt="logo" width="70%" class="logo"></a>
-            </div>
-            <div class="navegacion1">
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Quienes Somos?</li></a>
-                        <li><a href="pag/objetivos.html">Objetivos</li></a>
-                        <li><a href="pag/talleres.html">Talleres</li></a>
-                        <li><a href="pag/colabora.html">Colabora</li></a>
+        <nav>
+            <img src="../img/logo.png" class="" width="6%%" alt="">
+            <ul class="cont-ul">
+                <li>Quien Somos?</li>
+                <li>Objetivos</li>
+                <li class="develop">
+                    Talleres 
+                    <ul class="ul-second">
+                        <li class="back">Taller1</li>
+                        <li class="front">Taller2</li>
+                        <li>Taller3</li>
+                        <li>Taller4</li>
                     </ul>
-                </nav>
-            </div>
-        </div>
+                </li>
+                <li class="develop">
+                    Colaboradores 
+                    <ul class="ul-second">
+                        <li class="back">Colaborador1</li>
+                        <li class="front">Colaborador2</li>
+                        <li>Colaborador3</li>
+                    </ul>
+                </li>
+                <li>Preguntas frequentes</ul>
+            </ul>
+        </nav>
     </header>
 <body>
-    <h2>Formulario de Contacto</h2>
-    <form action="enviar_formulario.php" method="POST">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required><br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-
-    <label for="telefono">Telefono de contacto</label>
-    <input type="tel" id="tel" name="tel" required><br><br>
-
-    <label for="mensaje">Mensaje:</label><br>
-    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
-
-    <input type="submit" value="Enviar">
-  </form>
+   
 </body>
 </html>
