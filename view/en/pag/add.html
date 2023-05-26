@@ -10,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
     <script defer src="js/carrusel.js"></script>
     <link rel="icon" href="../../../img/logo.png">
-    <title>Collaborators</title>
+    <title>Join us</title>
 </head>
 <header>
     <nav>
-        <a href="../../../view/en/en.html"><img src="../../../img/logo.png" width="70%" alt=""></a>
+        <a href="../../en/en.html"><img src="../../../img/logo.png" width="70%" alt=""></a>
         <ul class="cont-ul">
             <li><a href="../../../view/en/en.html">Who are we?</li>
-            <li><a href="../../../view/en/pag/Objectives.html">Objectives</a></li>
+            <li><a href="../../view/en/pag/Objectives.html">Objectives</a></li>
             <li class="develop">Workshops
                 <ul class="ul-second">
                     <li class="back"><a href="../../../view/en/pag/taller1.html">Security</li></a>
@@ -28,7 +28,7 @@
                 Collaborators
                 <ul class="ul-second">
                     <li class="back"><a href="../../../view/en/pag/colabora1.html">Movistar</li></a>
-                    <li class="front"><a href="../../../view/en/pag/colabora2.html">Asus</li></a>
+                    <li class="front"><a href="../../../view/en/pag/colabora1.html">Asus</li></a>
                 </ul>
             </li>
             <li><a href="../../view/en/pag/preguntas.html">Frequently asked questions</li></a>
@@ -36,14 +36,32 @@
     </nav>
 </header>
 <body>
-    <h5>Movistar</h5>
+    <h5>Join us</h5>
     <hr>
     <div class="row">
-        <div class="column-50">
-            <p class="obj2">LPM and Movistar joined in a collaboration to provide free access to technology and digital education. LPM offered free facilities and laptops through its virtual open library. Movistar, for its part, provided comprehensive service in a single call, offering the best offers in telephony, Internet access and television. Together, they managed to combine free access to technology with a reliable connection through Movistar services, benefiting users with a complete and accessible solution.</p>
+        <div class="column-33-2">
+            <p></p>
         </div>
-        <div class="column-50">
-            <img src="../../../img/Movistar.png" class="talleres">
+        <div class="column-33-2">
+            <div class="form-container">
+                <h6>Employment application form</h6>
+                <form action="" method="POST" onsubmit="return validarFormulario()" enctype="multipart/form-data">
+                  <label for="nombre">Name:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                  <label for="edad">Age:</label>
+                  <input type="number" id="edad" name="edad" required>
+                  <label for="dni">DNI:</label>
+                  <input type="text" id="dni" name="dni" required>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  <label for="curriculum">Curriculum:</label>
+                  <input type="file" id="curriculum" name="curriculum" accept=".pdf,.doc,.docx" required>
+                  <input type="submit" value="Enviar" onclick="resetFormulario()">
+                </form>
+            </div>
+        </div>
+        <div class="column-33-2">
+            <p></p>
         </div>
     </div>
 </body>
@@ -51,13 +69,13 @@
 <footer>
     <div class="row">
         <div class="column-50">
-            <a href="../../../view/cat/pag/colabora1.html"><img src="../../../img/cat.png" class="bandera" alt=""></a>
-            <a href="../../../pag/colabora1.html"><img src="../../../img/esp.png" class="bandera" alt=""></a>
+            <a href="../../../pag/uneteanosotros.html"><img src="../../../img/esp.png" class="bandera" alt=""></a>
+            <a href="../../cat/pag/uneix-te.html"><img src="../../../img/cat.png" class="bandera" alt=""></a>
         </div>
         <div class="column-50-1">
             <div class="row">
                 <div class="column-50">
-                    <a href="../pag/add.html" class="fot">Join us</a>
+                    <a href="" class="fot">Join us</a>
                 </div>
                 <div class="column-50">
                     <a href="../../../view/en/pag/contacta.html" class="fot">Contact us</a>

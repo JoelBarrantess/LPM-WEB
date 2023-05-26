@@ -258,6 +258,9 @@ a {
     width: 33.33%;
     text-align: center;
 }
+.column-33-2{
+    width: 33.33%;
+}
 .column-50{
     width: 50%;
 }
@@ -268,6 +271,45 @@ a {
 .column-100{
     width: 100%;
 }
+.column-100-2{
+    width: 100%;
+    align-items: center;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid rgb(216, 76, 76);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+  }
+
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container input[type="email"],
+  .form-container input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .form-container input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #d75959;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
 @media screen and (max-width: 800px){
     .column-33{
         width: 100%;
@@ -275,6 +317,11 @@ a {
     .column-33-1{
         width: 100%;
         text-align: center;
+    }
+    .column-33-2{
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .column-50{
         width: 100%;
@@ -355,4 +402,7 @@ a {
     .icono{
         font-size: 1rem;
     }
+    .form-container {
+        font-size: 1rem;
+      }
     }
